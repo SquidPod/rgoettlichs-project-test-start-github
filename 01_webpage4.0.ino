@@ -97,6 +97,17 @@ void setup() {
   });
 
 }
+//void loop ist pflicht, und ist selberein infinit loop, deswegen würde ich sagen, dass der infinit loop in setup hier rein kommt
+//
+
+
+
+/* ausserdem müssen die server.on's  alle ausserhalb des while loops sein das heisst diese bleiben in setup
+danach müsste noch content definiert werden als content = "";
+das letzte wäre noch das problem, wenn man die while schleife hat sagt man in line 68, dass man curr_time in nen float umwandelt-> string in float und das geht nicht, deswegen hätte ic 2 eindimensienale arrays gemacht damit temparray nen float und timearray nen string sein kann so von
+der theorie her.
+
+leider habe ich keine ahenung wie ich das umsetzten kann(alles)*/
 
 
 
